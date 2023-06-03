@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 5% 0%;
+    width: 500px;
+    background-color: azure;
+}
+
+.juego {
+    display: grid;
+    grid-template-columns: repeat(1, 250px);
+    text-align: center;
+    
+}
+
+.titulo {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.textoInicial {
+    display: grid;
+    grid-template-columns: repeat(1, 250px);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px dotted black;
+    background-color: white;
+    border-radius: 3%;
+    margin-bottom: 3%;
+    padding: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.divRespuesta {
+    display: block;
+    background-color: blue;
+    margin-top: 5%;
+    border-style: solid;
+    border-color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 3px;
+}
+
+img {
+    width: 100%;
+}
+
+.botonOpciones button {
+    width: 100%;
+    background-color: aqua;
+    margin-top: 2px;
+    padding-top: 2px;
+    border-color: cornflowerblue;
+}
+
+.botonOpciones button:hover {
+    background-color: rgba(47, 155, 155, 0.548);
+    cursor: pointer;
+}
+
+.btnReset {
+    margin: 5%;
+    cursor: pointer;
+}
